@@ -1,3 +1,5 @@
+#Script with commands used to cleanup the files, rename them and loading them into hdfs
+
 mkdir -p /data/labs/w205-fall-16-labs-exercises/exercise_1/loading_and_modelling
 mkdir -p /data/labs/w205-fall-16-labs-exercises/exercise_1/exercise_1/data
 wget https://data.medicare.gov/views/bg9k-emty/files/Nqcy71p9Ss2RSBWDmP77H1DQXcyacr2khotGbDHHW_s?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital_Revised_Flatfiles.zip
