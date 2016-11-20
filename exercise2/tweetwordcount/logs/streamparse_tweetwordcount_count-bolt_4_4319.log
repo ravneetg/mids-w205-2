@@ -1,0 +1,13 @@
+2016-11-18 06:40:52,178 - streamparse.storm.component - ERROR - Exception in WordCounter.run()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/streamparse-2.1.4-py2.7.egg/streamparse/storm/component.py", line 489, in run
+    self._run()
+  File "/usr/lib/python2.7/site-packages/streamparse-2.1.4-py2.7.egg/streamparse/storm/bolt.py", line 219, in _run
+    self.process(tup)
+  File "bolts/wordcount.py", line 31, in process
+    cur.execute("UPDATE tweetwordcount SET count=%s WHERE word=%s", (word, self.counts[word]))
+ProgrammingError: operator does not exist: text = integer
+LINE 1: UPDATE tweetwordcount SET count=E'very' WHERE word=2
+                                                          ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+
