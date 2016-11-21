@@ -1,0 +1,46 @@
+
+tweetwordcount/
+├── _build
+│   ├── classes
+│   │   └── META-INF
+│   │       └── maven
+│   │           └── tweetwordcount
+│   │               └── tweetwordcount
+│   │                   └── pom.properties
+│   └── stale
+│       └── leiningen.core.classpath.extract-native-dependencies
+├── config.json
+├── fabfile.py
+├── finalresults.py
+├── hello-stream-twitter.py
+├── histogram.py
+├── logs
+│   ├── streamparse_tweetwordcount_parse-tweet-bolt_6_6155.log
+│   ├── streamparse_tweetwordcount_parse-tweet-bolt_6_6353.log
+│   ├── streamparse_tweetwordcount_tweet-spout_7_6135.log
+│   └── streamparse_tweetwordcount_tweet-spout_7_6355.log
+├── project.clj
+├── psycopg-sample.py
+├── README.md
+├── screenshots
+│   ├── Screenshot from 2016-11-18 00-23-38.png
+│   ├── Screenshot from 2016-11-18 00-23-44.png
+│   ├── Screenshot from 2016-11-18 01-24-08.png
+│   └── Screenshot from 2016-11-18 01-33-04.png
+├── src
+│   ├── bolts
+│   │   ├── __init__.py
+│   │   ├── parse.py
+│   │   └── wordcount.py
+│   └── spouts
+│       ├── __init__.py
+│       ├── tweets.py
+│       └── words.py
+├── tasks.py
+├── topologies
+│   ├── tweetwordcount.clj
+│   └── wordcount.py
+├── Twittercredentials.py
+├── Twittercredentials.pyc
+└── virtualenvs
+    └── wordcount.txt
